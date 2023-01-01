@@ -2,6 +2,7 @@
 <html>
 <head>
    <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
    <title>{{ page.title }} - {{ site.title }}</title>
 
    <link rel="stylesheet" type="text/css" href="{{ site.path }}/assets/css/styles.css" >
@@ -12,7 +13,7 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container clearfix">
+      <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand site-title" href="/">{{ site.title }}</a>
         </div>
@@ -36,9 +37,9 @@
     </nav>
 
     {% if page.jumbotron %}
-      <div class="jumbotron d-flex align-items-center min-vh-50">
+      <div class="jumbotron d-flex align-items-center">
         <div class="container text-center">
-          <h3>Author, Husband, Cat Wrangler</h3>
+          <h2>Author, Husband, Cat Wrangler</h2>
         </div>
       </div>
     {% endif %}
