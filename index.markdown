@@ -7,6 +7,8 @@ layout: default
 ---
 
 
-<p class="lead">
-  This is the work-in-progress website for author JD Pagano
+<p class="lead text-center">
+  Sign up to receive quarterly musings from author JD Pagano
 </p>
+
+<div class="ml-embedded" data-form="cTR23L"></div>
