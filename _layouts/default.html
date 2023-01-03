@@ -25,7 +25,7 @@
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand site-title" href="/">{{ site.title }}</a>
+          <a class="navbar-brand site-title text-uppercase" href="/">{{ site.title }}</a>
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -49,19 +49,17 @@
       </div>
     </nav>
 
-    {% if page.jumbotron %}
-      <div class="jumbotron d-flex align-items-center">
-        <div class="container text-center">
-          <h2>Author, Husband, Cat Wrangler</h2>
+    {% if page.container == "flexible" %}
+      <div class="container-fluid">
+        {{ content }}
+      </div>
+    {% else %}
+      <div class="container">
+        <div class="content">
+          {{ content }}
         </div>
       </div>
     {% endif %}
-
-    <div class="container">
-      <div class="content">
-        {{ content }}
-      </div>
-    </div><!-- /.container -->
 
 </body>
 </html>
