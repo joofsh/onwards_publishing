@@ -8,10 +8,10 @@ layout: default
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-8 banner-image">
+    <div class="col-lg-8 col-md-12 banner-image align-items-center text-center d-flex">
     </div>
-    <div class="col-4 d-flex align-items-center text-center">
-      <h2 class="w-100">Author<br>-<br>Husband<br>-<br>Cat Wrangler</h2>
+    <div class="col-lg-4 col-md-12 d-flex align-items-center text-center pt-4 pt-lg-0">
+      <h2 class="w-100">Author<br>-<br>Cat Wrangler</h2>
     </div>
   </div>
 </div>
