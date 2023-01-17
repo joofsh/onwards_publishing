@@ -22,6 +22,9 @@
   margin: 0 auto;
   a { 
     text-decoration: none;
-    color: var(--bs-heading-color, inherit);
+    color: $dark;
+    &:hover {
+      color: $gray-500;
+    }
   }
 }
