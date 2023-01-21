@@ -1,0 +1,36 @@
+---
+layout: default
+title: Blog
+paginate: true
+---
+
+<div class="row pb-3">
+  <h2>Blog</h2>
+</div>
+
+<section class="row">
+    <ul class="list-group">
+        {% for post in paginator.posts %}
+          <li class="list-group-item p-4">
+            <h3>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </h3>
+            <p>{{ post.excerpt }}</p>
+          </li>
+        {% endfor %}
+
+        {% if site.blog_enabled == false %} 
+          <h4 class="p-5"> Coming Soon!</h4>
+        {% endif %}
+    </ul>
+
+</section>
+
+  <!-- Pagination
+  ================================================== -->
+<div class="bottompagination">
+  <!-- <div class="pointerup"><i class="fa fa-caret-up"></i></div> -->
+  <span class="navigation" role="navigation">
+      {% include pagination.html %}
+  </span>
+</div>
