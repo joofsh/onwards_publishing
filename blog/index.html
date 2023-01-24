@@ -11,17 +11,18 @@ paginate: true
 <section class="row">
     <ul class="list-group">
         {% for post in paginator.posts %}
-          <li class="list-group-item p-4">
-            <h3>
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            </h3>
-            <p>{{ post.excerpt }}</p>
+          <li class="list-group-item p-4 row d-flex">
+            <div class="col-lg-2 cover-image-wrapper d-flex justify-content-center">
+              <img src="{{ post.image }}" alt-text="post cover image" class="blog-index-post-image"/>
+            </div>
+            <div class="col-lg-10">
+              <h3>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+              </h3>
+              <p>{{ post.excerpt }}</p>
+            </div>
           </li>
         {% endfor %}
-
-        {% if site.blog_enabled == false %} 
-          <h4 class="p-5"> Coming Soon!</h4>
-        {% endif %}
     </ul>
 
 </section>

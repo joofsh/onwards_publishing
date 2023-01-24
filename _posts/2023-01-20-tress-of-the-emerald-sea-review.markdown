@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Review: Tress of the Emerald Sea"
-date:   2023-01-20 12:44:42 -0600 categories: reviews fantasy
+date:   2023-01-20 12:44:42 -0600
+categories: reviews fantasy
 image: /assets/images/tress_of_the_emerald_sea.jpeg
 quote: The whimsical narration steals the show
 published: true
