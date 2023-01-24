@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Review: Tress of the Emerald Sea"
-date:   2023-01-20 12:44:42 -0600
-categories: reviews fantasy
+date:   2023-01-20 12:44:42 -0600 categories: reviews fantasy
 image: /assets/images/tress_of_the_emerald_sea.jpeg
 quote: The whimsical narration steals the show
 published: true
@@ -30,13 +29,11 @@ an unusual stylistic choice for Sanderson, making this look like no other book h
 from the Cosmere. I laughed out loud
 numerous times, such as when someone's intellect is compared to soggy bread, or when pelicans are uffers as an example of poor divine execution. It's cute, it's wholesome, and it just *works*.
 
-Thematically, the found family trope was front and center. The other pirates on Tress' ship are
-distinct, well defined with their own goals. And watching them support Tress  (and her them in
-return) is wonderful. 
+Thematically, the found family trope comes through front and center. The other pirates on Tress' ship are
+distinct, well defined characters with their own goals. And watching them support Tress  (and her them in
+return) is utterly charming. 
 
 Finally, I want to shoutout the accompanied artwork by Howard Lyon. I'll admit, at first I
 had not be fond of the novel including art. After all, this is not a graphic novel. Why visually
 show us what the scene looks like, when you can instead build it through your words? However, this
 stylistic choice very much fits the fairytale vibe of the book, and the art itself is delightful.
-
-Overall, I thoroughly enjoyed Tress of the Emerla Sea. 
