@@ -25,30 +25,34 @@
 </head>
 <body class="d-flex flex-column">
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand site-title text-uppercase" href="/">{{ site.title }}</a>
-        </div>
+    <div class="container-fluid">
+      <div class="col d-flex justify-content-end">
+      </div>
+      <div class="navbar-header col d-flex justify-content-center">
+        <a class="navbar-brand site-title text-uppercase" href="/">{{ site.title }}</a>
+      </div>
+      <div class="collapse navbar-collapse col justify-content-end" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link ml-onclick-form" href="javascript:void(0)" onclick="ml('show',
+                                                                          'kgztqI', true)">Newsletter</a>
+            <!-- Must have hidden button to make mailerlite work for some reason -->
+            <button class="d-none ml-onclick-form" onclick="ml('show', 'kgztqI', true)">Click here to show form</button>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col justify-content-end navbar-toggler-wrapper">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link ml-onclick-form" href="javascript:void(0)" onclick="ml('show',
-                'kgztqI', true)">Newsletter</a>
-               <!-- Must have hidden button to make mailerlite work for some reason -->
-              <button class="d-none ml-onclick-form" onclick="ml('show', 'kgztqI', true)">Click here to show form</button>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/blog">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/about">About</a>
-            </li>
-          </ul>
-        </div>
       </div>
+    </div>
     </nav>
 
     {% if page.container == "flexible" %}

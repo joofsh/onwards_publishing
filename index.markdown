@@ -12,7 +12,7 @@ layout: default
     <div class="col-lg-8 col-md-12 banner-image align-items-center text-center d-flex">
     </div>
     <div class="col-lg-4 col-md-12 d-flex align-items-center text-center pt-4 pt-lg-0">
-      <h2 class="w-100">Cozy Fantasy Author<br>-<br>Cat Wrangler</h2>
+      <h2 class="w-100">Fantasy Author<br>-<br>Cat Wrangler</h2>
     </div>
   </div>
 </div>

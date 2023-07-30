@@ -9,3 +9,17 @@ body {
 footer {
   margin-top: auto;
 }
+
+.navbar-toggler-wrapper {
+  display: flex;
+}
+
+.navbar-collapse {
+  flex-basis: 0 !important;
+}
+
+@media (min-width: 992px) {
+  .navbar-toggler-wrapper {
+    display: none;
+  }
+}
