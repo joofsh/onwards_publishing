@@ -49,3 +49,10 @@
 .onwards-site-title {
   font-size: 32px;
 }
+
+@include media-breakpoint-down(sm) {
+  .onwards-site-title {
+    padding-top: 14px;
+    font-size: 23px;
+  }
+}
