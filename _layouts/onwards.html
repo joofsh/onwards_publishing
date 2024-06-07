@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="{{ site.path }}/assets/css/styles.css" >
+   <script src="https://kit.fontawesome.com/e03a231c7b.js" crossorigin="anonymous"></script>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+   <script src="{{ site.path }}/assets/js/bootstrap.min.js"></script>
+	 <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> -->
+
+   <!-- MailerLite Universal -->
+<!-- <script> -->
+<!--     (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[]) -->
+<!--     .push(arguments);},l=d.createElement(e),l.async=1,l.src=u, -->
+<!--     n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);}) -->
+<!--     (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml'); -->
+<!--     ml('account', '255260'); -->
+<!-- </script> -->
+<!-- End MailerLite Universal -->
+
+  {% seo %}
+
+  {% include analytics.html %}
+</head>
+<body class="d-flex flex-column">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <div class="navbar-header col d-flex">
+        <img class="onwards-logo me-3" src="/assets/images/onwards_logo_1.png" alt-text="onwards publishing logo"/>
+        <span class="navbar-brand onwards-site-title text-uppercase">Onwards Publishing</span>
+      </div>
+    </div>
+  </nav>
+
+    {% if page.container == "flexible" %}
+      <div class="container-fluid">
+        {{ content }}
+      </div>
+    {% else %}
+      <div class="container">
+        <div class="content">
+          {{ content }}
+        </div>
+      </div>
+    {% endif %}
+
+  <footer class="container-fluid bg-body-tertiary">
+    <div class="d-flex flex-row p-3">
+      <div class="social-media">
+        <a href="https://twitter.com/jdpagano" target="_blank">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+
+        <a href="https://www.facebook.com/Jdpagano7/" target="_blank">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+
+        <a href="https://www.instagram.com/joofsh/" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
