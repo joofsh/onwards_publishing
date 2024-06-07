@@ -9,8 +9,13 @@ layout: onwards
 
 <div class="">
     <div class="row">
-      <div class="col-lg-12 col-md-12 d-flex justify-content-center p-4">
-        <h2 >Onwards! An Anthology</h2>
+      <div class="col-lg-12 p-4">
+        <div class="d-flex justify-content-center">
+          <h2>Onwards! An Anthology</h2>
+        </div>
+        <div class="d-flex justify-content-center">
+          <a href="https://www.barnesandnoble.com/w/onwards-an-anthology-onwards/1145631834"><h4>Coming June 25th</h4></a>
+        </div>
       </div>
   </div>
   <div class="row">
